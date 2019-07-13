@@ -3,7 +3,7 @@
 https://github.com/andreruffert/rangeslider.js
 
 
-```
+```sh
 bower install --save rangeslider.js
 npm install --save rangeslider.js
 ```
@@ -11,7 +11,7 @@ npm install --save rangeslider.js
 ```js
 $('input[type="range"]').val(10).change();
 
-$().rangeslider({
+$('input[type="range"]').rangeslider({
   polyfill: true,
   rangeClass: 'rangeslider',
   disabledClass: 'rangeslider--disabled',
